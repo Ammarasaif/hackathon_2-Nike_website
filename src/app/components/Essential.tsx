@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Pic from "@/app/assets/essential image.png";
+import Pic from "@/app/assets/Essential image.png";
 export default function Essentials (){
     return (
         <div className="mt-20">

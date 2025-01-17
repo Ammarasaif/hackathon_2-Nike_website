@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Men from "@/app/assets/for men.png";
-import Women from "@/app/assets/for women.png";
-import kids from "@/app/assets/for kids.png";
+import Men from "@/app/assets/for Men.png";
+import Women from "@/app/assets/for Women.png";
+import kids from "@/app/assets/for Kids.png";
 export default function Category (){
     return(
         <div className="w-full h-auto px-4  md:mt-8">

@@ -1,12 +1,12 @@
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import Image from "next/image";
-import Men from "@/app/assets/men.png";
+import Men from "@/app/assets/Men.png";
 import Card1 from "./Card1";
 import { MdCurrencyRupee } from "react-icons/md";
-import Men2 from "@/app/assets/men2.png";
-import Girl from "@/app/assets/girl.png";
-import Girl2 from "@/app/assets/girl2.png";
+import Men2 from "@/app/assets/Men2.png";
+import Girl from "@/app/assets/Girl.png";
+import Girl2 from "@/app/assets/Girl2.png";
 
 
 

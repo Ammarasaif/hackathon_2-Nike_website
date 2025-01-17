@@ -1,11 +1,11 @@
 import Image from "next/image";
-import shoe1 from "@/app/assets/shoe1.png";
+import Shoe1 from "@/app/assets/Shoe1.png";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
 import { MdCurrencyRupee } from "react-icons/md";
-import shoe2 from "@/app/assets/shoe2.png"
+import Shoe2 from "@/app/assets/Shoe2.png"
 import Card from "./Card";
-import shoe3 from "@/app/assets/shoe3.png";
+import Shoe3 from "@/app/assets/Shoe3.png";
 export default function BestAirMax (){
     return (
         <div>
@@ -26,7 +26,7 @@ export default function BestAirMax (){
              <div className="flex">
                 <div className="w-full h-[400px] md:h-[540.36px]">
             <div className="h-[400px] w-[400px]">
-                <Image src={shoe1} alt="ShoePic" />
+                <Image src={Shoe1} alt="ShoePic" />
              </div>
              <div className="h-[48px] w-[400px] flex  justify-between items-center">
                 <h1 className="font-medium text-[15px] leading-[24px] ml-4">
@@ -45,11 +45,11 @@ export default function BestAirMax (){
            
 
           <div className="cursor-pointer hover:text-lg">
-           <Card imageUrl={shoe2} heading="Nike Air Max Pulse" paragraph="Men's Shoes" span="13 995"/>
+           <Card imageUrl={Shoe2} heading="Nike Air Max Pulse" paragraph="Men's Shoes" span="13 995"/>
           </div>
           <div className="pl-8 cursor-pointer hover:text-lg">
 
-            <Card imageUrl={shoe3} heading="Nike Air Max 97 SE" paragraph="Men's Shoes" span="16 995" />
+            <Card imageUrl={Shoe3} heading="Nike Air Max 97 SE" paragraph="Men's Shoes" span="16 995" />
           </div>
             
             

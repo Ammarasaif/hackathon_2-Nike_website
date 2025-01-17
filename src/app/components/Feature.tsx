@@ -1,5 +1,5 @@
 import Image from "next/image";
-import feature from "@/app/assets/feature image.png";
+import Features from "@/app/assets/Feature image.png";
 
 
 export default function Feature(){
@@ -9,7 +9,7 @@ export default function Feature(){
                Featured
             </h1>
             <div className="mt-4">
-                <Image src={feature} alt="not found" />
+                <Image src={Features} alt="not found" />
             </div>
             <div className="">
                 <h1 className="font-medium  text-[25px] md:text-[54px] leading-[60px] text-center text-black md:mt-10">STEP INTO WHAT FEELS GOOD</h1>

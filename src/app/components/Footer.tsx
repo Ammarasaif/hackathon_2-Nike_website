@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Facebook from "@/app/assets/facebook.png";
-import Twitter from "@/app/assets/twitter.png";
-import Youtube from "@/app/assets/youtube.png";
-import Insta from "@/app/assets/insta.png";
-import Location from "@/app/assets/location.png";
-import Text from "@/app/assets/text.png";
+import Facebook from "@/app/assets/Facebook.png";
+import Twitter from "@/app/assets/Twitter.png";
+import Youtube from "@/app/assets/Youtube.png";
+import Insta from "@/app/assets/Insta.png";
+import Location from "@/app/assets/Location.png";
+import Text from "@/app/assets/Text.png";
 
 export default function Footer (){
     return( 
