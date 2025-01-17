@@ -17,16 +17,16 @@ export default function Navbar (){
                     <ul className='flex gap-[15.38px] font-sans font-medium text-[11px] leading-[14px]'>
 
                         <li className="hover:text-[15px]">
-                         <Link href="/store">Find a Store <span className='border-r-[2px] border-slate-700 relative pl-5'></span></Link>
+                         <Link href="/Store">Find a Store <span className='border-r-[2px] border-slate-700 relative pl-5'></span></Link>
                         </li>
 
-                        <li className="hover:text-[15px] cursor-pointer"><Link href="/help">Help </Link><span className='border-r-[2px] border-slate-700 pl-5'> </span> </li>
+                        <li className="hover:text-[15px] cursor-pointer"><Link href="/Help">Help </Link><span className='border-r-[2px] border-slate-700 pl-5'> </span> </li>
 
                         <li className="hover:text-[15px]"> 
-                        <Link href="/joinUs">Join Us </Link> <span className='border-r-[2px] border-slate-700 pl-5'></span>
+                        <Link href="/JoinUs">Join Us </Link> <span className='border-r-[2px] border-slate-700 pl-5'></span>
                         </li>
 
-                        <li className="hover:text-[15px]">  <Link href="/signIn" >Sign In</Link></li>
+                        <li className="hover:text-[15px]">  <Link href="/SignIn" >Sign In</Link></li>
                     </ul>
                 </div>
             </div>
