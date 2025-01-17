@@ -113,8 +113,10 @@ export default function (){
             </div>
             <div>
             <Card3 imageUrl={Shoeimage2} heading="just In" h2="Nike Court Vision Low Next Nature" h3="Men's Shoes" span="1 Colour" paragraph="MRP : ₹ 4 995.00"/></div>
-            <div><Card3 imageUrl={Shoeimage3} heading="Just In" h2="Nike Air Force 1 PLT.AF.ORM" h3="Women's Shoes" span="1 Colour" paragraph="MRP : ₹ 8 695.00" /></div>
-            <div className=" mt-16"> <Card3 imageUrl={Shoeimage4} heading="Just In" h2="Nike Air Force 1 React" h3="Men's Shoes" span="1 Colour" paragraph="MRP : ₹ 13 295.00"   /></div>
+            <div>
+                <Card3 imageUrl={Shoeimage3} heading="Just In" h2="Nike Air Force 1 PLT.AF.ORM" h3="Women's Shoes" span="1 Colour" paragraph="MRP : ₹ 8 695.00" /></div>
+            <div className=" mt-16"> 
+                <Card3 imageUrl={Shoeimage4} heading="Just In" h2="Nike Air Force 1 React" h3="Men's Shoes" span="1 Colour" paragraph="MRP : ₹ 13 295.00"   /></div>
             <div className=" mt-16">
                 <Card3 imageUrl={Shoeimage5} heading="Promo Exclusion" h2="Air Jordan 1 Elevate Low" h3="Women's Shoes"
                 span="1 Colour" paragraph="MRP : ₹ 11 895.00" />
